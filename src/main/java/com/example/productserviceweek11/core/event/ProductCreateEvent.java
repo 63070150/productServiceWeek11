@@ -18,7 +18,7 @@ public class ProductCreateEvent {
     private BigDecimal price;
     private Integer quantity;
     @CommandHandler
-    public ProductAggregate(CreateProductCommand command){
+    public ProductAggregate(CreateProductCommand command){//error ja rai mai ru
 
         //Business logic
         if (command.getPrice().compareTo(BigDecimal.ZERO) <= 0){
