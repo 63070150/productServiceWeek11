@@ -15,7 +15,7 @@ public class ProductCommandController {
     private final CommandGateway commandGateway;
 
     @Autowired
-    public ProductCommandControlle(CommandGateway commandGateway){
+    public ProductCommandController(CommandGateway commandGateway){
         this.commandGateway = commandGateway;
     }
     @PostMapping
