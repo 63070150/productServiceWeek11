@@ -58,4 +58,5 @@ public class ProductAggregate {
         this.quantity -=productReservedEvent.getQuantity();
     }
 
+
 }
